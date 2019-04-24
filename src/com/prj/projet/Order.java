@@ -5,37 +5,25 @@ public class Order {
     /**
      *Affichage des menus
      */
-    public void displaylabelMenu () {
-        System.out.println("Choix menu");
-        System.out.println("1 - poulet");
-        System.out.println("2 - boeuf");
-        System.out.println("3 - végétarien");
-        System.out.println("Que souhaitez-vous comme menu ?");
+   public void displayAvailableMenu () {
+
+  System.out.println("Choix de votre menu");
+  System.out.println("1 - Poulet");
+  System.out.println("2 - Boeuf");
+  System.out.println("3 - Végetarien");
+  System.out.println("Avez vous choisi votre menu ?");
+
+
     }
 
-    /**
-     * Affichage des menus selectionnée
-     */
-    public void displaySelectedMenu () {
 
-
-        /**
-         * Display all available menus in the restaurant.
-         */
-
-        System.out.println("Choix menu");
-        System.out.println("1 - poulet");
-        System.out.println("2 - boeuf");
-        System.out.println("3 - végétarien");
-        System.out.println("Que souhaitez-vous comme menu ?");
-    }
             /**
              * Display a selected menu.
              * @param nbMenu The selected menu.
              */
-            public void displaySelectedMenu(int nbMenu) {
-                System.out.println("Vous avez choisi le menu " + nbMenu);
+             public void displaySelectedMenu(int nbMenu) {
+           System.out.println("Vous avez choisi le menu " + nbMenu);
             }
 
-    }
+}
 

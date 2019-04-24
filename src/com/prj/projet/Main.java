@@ -1,9 +1,16 @@
 package com.prj.projet;
 
+
+import java.util.Scanner;
+
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	Order order = new Order();
+	order.displayAvailableMenu();
+	Scanner sc = new Scanner(System.in);
+	int nb = sc.nextInt();
+	order.displaySelectedMenu(nb);
 
 	}
 
