@@ -22,7 +22,7 @@ public class Order {
              * @param nbMenu The selected menu.
              */
              public void displaySelectedMenu(int nbMenu) {
-           System.out.println("Vous avez choisi le menu " + nbMenu);
+           System.out.println("Vous avez choisi le menu " +nbMenu);
             }
 
 }
